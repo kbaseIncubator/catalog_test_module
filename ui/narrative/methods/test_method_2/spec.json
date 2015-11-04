@@ -9,7 +9,7 @@
     "output" : null
   },
   "parameters" : [ {
-    "id" : "param0",
+    "id" : "param0_that_is_not_defined_in_yaml",
     "optional" : false,
     "advanced" : false,
     "allow_multiple" : false,
@@ -36,7 +36,7 @@
       "method" : "send_data",
       "input_mapping" : [
         {
-          "input_parameter": "param0",
+          "input_parameter": "param0_that_is_not_defined_in_yaml",
           "target_property": "thing1"
         },
         {
