@@ -1,5 +1,5 @@
 module-name:
-    CatalogTestModule
+    CatalogTestModuleFailMethodSpec
 
 module-version:
     0.0.2
