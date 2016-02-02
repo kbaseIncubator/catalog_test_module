@@ -2,10 +2,10 @@ module-name:
     CatalogTestModule
 
 module-version:
-    0.0.2
+    MySpecialVersion
 
 module-description:
-    A test module
+    A test module that is really good.
 
 service-language:
     python
