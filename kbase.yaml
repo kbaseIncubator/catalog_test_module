@@ -10,5 +10,8 @@ module-description:
 service-language:
     python
 
+service-config:
+    dynamic-service: true
+
 owners:
     [wstester1]
