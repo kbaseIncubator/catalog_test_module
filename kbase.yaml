@@ -2,7 +2,7 @@ module-name:
     CatalogTestModule
 
 module-version:
-    0.0.1
+    1.0.1
 
 module-description:
     A test module that is really good.
