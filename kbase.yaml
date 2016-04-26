@@ -1,17 +1,14 @@
 module-name:
-    CatalogTestModule
+    GenomeToPowerpointConverter
 
 module-version:
-    1.0.1
+    2.1.0
 
 module-description:
-    A test module that is really good.
+    They said it couldn't be done.
 
 service-language:
     python
 
-service-config:
-    dynamic-service: true
-
 owners:
-    [wstester1]
+    [wstester3]

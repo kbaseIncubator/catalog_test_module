@@ -1,7 +1,7 @@
-SERVICE = catalog_test_module
-SERVICE_CAPS = CatalogTestModule
+SERVICE = genome_to_powerpoint_converter
+SERVICE_CAPS = GenomeToPowerpointConverter
 SERVICE_PORT = 5000
-SPEC_FILE = catalog_test_module.spec
+SPEC_FILE = genome_to_powerpoint_converter.spec
 
 GITCOMMIT := $(shell git rev-parse --short HEAD)
 TAGS := $(shell git tag --contains $(GITCOMMIT))

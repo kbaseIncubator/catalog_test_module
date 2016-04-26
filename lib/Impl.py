@@ -2,10 +2,10 @@
 #END_HEADER
 
 
-class CatalogRepoTest:
+class GenomeToPowerpointConverter:
     '''
     Module Name:
-    CatalogRepoTest
+    GenomeToPowerpointConverter
 
     Module Description:
     
@@ -27,17 +27,30 @@ class CatalogRepoTest:
         #END_CONSTRUCTOR
         pass
 
-    def run_test_1(self, ctx, params):
+    def genome_to_powerpoint(self, ctx):
         # ctx is the context object
-        # return variables are: returnVal
-        #BEGIN run_test_1
-        user = ctx['user_id']
-        returnVal = {'params': params, 'user': user}
-        #END run_test_1
+        # return variables are: pp_filename
+        #BEGIN genome_to_powerpoint
+        pp_filename = "out.ppx"
+        #END genome_to_powerpoint
 
         # At some point might do deeper type checking...
-        if not isinstance(returnVal, object):
-            raise ValueError('Method run_test_1 return value ' +
-                             'returnVal is not type object as required.')
+        if not isinstance(pp_filename, basestring):
+            raise ValueError('Method genome_to_powerpoint return value ' +
+                             'pp_filename is not type basestring as required.')
         # return the results
-        return [returnVal]
+        return [pp_filename]
+
+    def powerpoint_to_genome(self, ctx):
+        # ctx is the context object
+        # return variables are: genome_ref
+        #BEGIN powerpoint_to_genome
+        genome_ref = "41201/1/1"
+        #END powerpoint_to_genome
+
+        # At some point might do deeper type checking...
+        if not isinstance(genome_ref, basestring):
+            raise ValueError('Method powerpoint_to_genome return value ' +
+                             'genome_ref is not type basestring as required.')
+        # return the results
+        return [genome_ref]
