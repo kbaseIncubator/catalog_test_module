@@ -1,0 +1,20 @@
+{
+    "name" : "Genome to Powerpoint",
+    "short_description":"Converts a genome data object to a set of powerpoint ppx files", 
+
+    "long_description": "genome_to_powerpoint.html",
+
+    "authors" : ["wstester4"]
+
+    "tags" : {
+        "categories" : ""
+        "input": {
+            "file_types": [],
+            "kb_types": ["KBaseGenome.Genome", "KBaseAnnotation.GenomeAnnotation"]
+        }
+        "output": {
+            "file_types": ["powerpoint"],
+            "kb_types": []
+        }
+    }
+}
