@@ -4,14 +4,14 @@
 
     "long_description": "<b> some html here </b> <br><br> more here!",
 
-    "authors" : ["wstester4"]
+    "authors" : ["wstester4"],
 
     "tags" : {
-        "categories" : []
+        "categories" : [],
         "input": {
             "file_types": ["powerpoint"],
             "kb_types": []
-        }
+        },
         "output": {
             "file_types": [],
             "kb_types": ["KBaseAnnotation.GenomeAnnotation"]

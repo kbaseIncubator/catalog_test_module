@@ -4,14 +4,14 @@
 
     "long_description": "genome_to_powerpoint.html",
 
-    "authors" : ["wstester4"]
+    "authors" : ["wstester4"],
 
     "tags" : {
-        "categories" : []
+        "categories" : [],
         "input": {
             "file_types": [],
             "kb_types": ["KBaseGenome.Genome", "KBaseAnnotation.GenomeAnnotation"]
-        }
+        },
         "output": {
             "file_types": ["powerpoint"],
             "kb_types": []
